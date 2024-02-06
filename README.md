@@ -38,3 +38,12 @@ E' una funzione livewire che monta tutto ci di cui posso aver bisogno nel mio co
 @endforelse
 
 E' in soldoni un foreach che peró controlla prima se la collection é vuota, se lo é fa scattare il codice nell'empty se non lo é fa partire il foreach sulla collection
+
+MOUNT
+Quando inseriamo dei parametri al tag di richiamo del componente livewire, questi attributi diventano DI DIRITTO CON LO STESSO NOME parametri della funzione mount
+
+
+find()
+La funzione find funziona solo se riceve come parametro un id (un numerino intero e segna segno)
+
+method e action necessari affinché venga correttamente composta la request, con livewire tutto questo non ci serve perché provvederá lui a creare una request con il metodo giusto e la action giusta

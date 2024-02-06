@@ -15,4 +15,8 @@ class PublicController extends Controller
         $articles=Article::all();
         return view('index', compact('articles'));
     }
+
+    public function edit(Article $article){
+        return view('edit', compact('article'));
+    }
 }
